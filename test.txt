@@ -8,7 +8,7 @@ mirel test first file
 mirel test first file
 
 Am facut o schimbare la text
-sa fie bine si de data asta 
+sa fie bine si de data asta PE NET AICI
 v
 mirel test first file
 
