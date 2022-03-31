@@ -1,4 +1,34 @@
 "use strict";
 
+const marksWeights = 78;
+const johnWeights = 92;
+
+const marksHeight = 1.69;
+const johnHeight = 1.95;
+
+
+const johnBmi = johnWeights / (johnHeight * johnHeight);
+
+const markBmi = marksWeights / (marksHeight * marksHeight);
+
+console.log(markBmi, johnBmi);
+
+const markHigherBmi = markBmi > johnBmi;
+console.log(markHigherBmi);
+
+if (markBmi > johnBmi){
+    console.log(true);
+};
+
+const marksWeights2 = 95;
+const marksHeights2 = 1.88;
+
+const johnWeights2 = 85;
+const johnHeights2 = 1.76;
+
+const johnBmi2 = johnWeights2 / (johnHeights2 * johnHeights2);
+const markBmi2 = marksWeights / (marksHeights2 * marksHeights2);
+
+const markHigherBmi2 = markBmi2 > johnBmi2;
 
 
