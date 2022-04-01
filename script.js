@@ -37,3 +37,29 @@ if (markBmi < johnBmi){
 } else {
     console.log(`John's BMI ${johnBmi} is higher than Mark's bmi ${markBmi}`);
 };
+
+const dolphinsScore = (96+ 108 + 89) / 3;
+const koalasScore = (88+ 91 + 110) / 3;
+
+const dolphinsScore2 = (97 + 112 + 101 ) / 3;
+const koalasScore2 = (109 + 95 + 123 ) / 3;
+
+
+console.log(dolphinsScore, koalasScore);
+
+if ( dolphinsScore < koalasScore  ){
+    console.log('Dolphins win !! ');
+} else {
+    console.log('Koalas win');
+};
+
+console.log(dolphinsScore2, koalasScore2);
+
+if (dolphinsScore2 > koalasScore2 && dolphinsScore2 > 100){
+    console.log('Dolphins win the trophy');
+} else if (dolphinsScore2 < koalasScore2 && koalasScore2 > 100) {
+    console.log('Koalas win the trophy');
+} else if (koalasScore2 === dolphinsScore2) {
+    console.log('No winner :(');
+}
+
