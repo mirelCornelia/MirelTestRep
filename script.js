@@ -6,7 +6,6 @@ const johnWeights = 92;
 const marksHeight = 1.69;
 const johnHeight = 1.95;
 
-
 const johnBmi = johnWeights / (johnHeight * johnHeight);
 
 const markBmi = marksWeights / (marksHeight * marksHeight);
@@ -16,9 +15,9 @@ console.log(markBmi, johnBmi);
 const markHigherBmi = markBmi > johnBmi;
 console.log(markHigherBmi);
 
-if (markBmi > johnBmi){
-    console.log(true);
-};
+if (markBmi > johnBmi) {
+  console.log(true);
+}
 
 const marksWeights2 = 95;
 const marksHeights2 = 1.88;
@@ -31,35 +30,38 @@ const markBmi2 = marksWeights / (marksHeights2 * marksHeights2);
 
 const markHigherBmi2 = markBmi2 > johnBmi2;
 
-
-if (markBmi < johnBmi){
-    console.log(`Mark's BMI ${markBmi} is higher than John's bmi ${johnBmi}`);
+if (markBmi < johnBmi) {
+  console.log(`Mark's BMI ${markBmi} is higher than John's bmi ${johnBmi}`);
 } else {
-    console.log(`John's BMI ${johnBmi} is higher than Mark's bmi ${markBmi}`);
-};
+  console.log(`John's BMI ${johnBmi} is higher than Mark's bmi ${markBmi}`);
+}
 
-const dolphinsScore = (96+ 108 + 89) / 3;
-const koalasScore = (88+ 91 + 110) / 3;
+const dolphinsScore = (96 + 108 + 89) / 3;
+const koalasScore = (88 + 91 + 110) / 3;
 
-const dolphinsScore2 = (97 + 112 + 101 ) / 3;
-const koalasScore2 = (109 + 95 + 123 ) / 3;
-
+const dolphinsScore2 = (97 + 112 + 101) / 3;
+const koalasScore2 = (109 + 95 + 123) / 3;
 
 console.log(dolphinsScore, koalasScore);
 
-if ( dolphinsScore < koalasScore  ){
-    console.log('Dolphins win !! ');
+if (dolphinsScore < koalasScore) {
+  console.log("Dolphins win !! ");
 } else {
-    console.log('Koalas win');
-};
+  console.log("Koalas win");}
 
 console.log(dolphinsScore2, koalasScore2);
 
-if (dolphinsScore2 > koalasScore2 && dolphinsScore2 > 100){
-    console.log('Dolphins win the trophy');
+if (dolphinsScore2 > koalasScore2 && dolphinsScore2 > 100) {
+  console.log("Dolphins win the trophy");
 } else if (dolphinsScore2 < koalasScore2 && koalasScore2 > 100) {
-    console.log('Koalas win the trophy');
+  console.log("Koalas win the trophy");
 } else if (koalasScore2 === dolphinsScore2) {
-    console.log('No winner :(');
+  console.log("No winner :(");
 }
+
+
+
+const bill = 408;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`);
 
